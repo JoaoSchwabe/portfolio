@@ -9,14 +9,6 @@ import Sobre from "../components/Sobre";
 export default function Home() {
     return (
         <div>
-            <Head>
-                <title>João - Desenvolvedor Web</title>
-                <meta
-                    name="description"
-                    content="Desenvolvedor web front-end com React e Next.js e desenvolvedor mobile com React Native e Expo, backend com NodeJS."
-                />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <Navbar />
             <Main />
             <Sobre />

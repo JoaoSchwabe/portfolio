@@ -5,7 +5,7 @@ import React from "react";
 type ProjectItemProps = {
     titulo: string;
     backgroundImg: StaticImageData;
-    url?: string;
+    url: string;
     tech: string;
 };
 
@@ -27,13 +27,11 @@ const ProjectItem = ({
                     {titulo}
                 </h3>
                 <p className="pb-4 pt-2 text-white text-center">{tech}</p>
-                {url && (
-                    <Link href={url}>
-                        <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-                            More Info
-                        </p>
-                    </Link>
-                )}
+                <Link href={url}>
+                    <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+                        More Info
+                    </p>
+                </Link>
             </div>
         </div>
     );

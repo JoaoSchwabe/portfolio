@@ -18,21 +18,25 @@ const Projetos = () => {
                         titulo="Filmes API"
                         backgroundImg={filmes}
                         tech="React JS"
+                        url="/filmes"
                     />
                     <ProjectItem
                         titulo="Pizzaria"
                         backgroundImg={pizza}
                         tech="React JS, NodeJS, TailwindCSS"
+                        url="/pizzaria"
                     />
                     <ProjectItem
                         titulo="TODO App"
                         backgroundImg={todo}
                         tech="React Native, Expo"
+                        url="/todo"
                     />
                     <ProjectItem
                         titulo="ALFBT Child"
                         backgroundImg={alftchild}
                         tech="React Native"
+                        url="/alfbt-child"
                     />
                 </div>
             </div>

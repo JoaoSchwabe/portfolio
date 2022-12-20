@@ -9,9 +9,8 @@ const Main = () => {
         <div className="w-full h-screen text-center">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
                 <div>
-                    <h1 className="py-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500  to-[#709dff] ">
-                        <span>João</span> <span>Gabriel</span>{" "}
-                        <span>Schwabe</span>
+                    <h1 className="py-4 text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500  to-[#709dff] ">
+                        João Gabriel Schwabe
                     </h1>
                     <h2 className="py-2 text-gray-400">
                         Desenvolvedor Front-End e Back-End

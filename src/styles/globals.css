@@ -39,4 +39,7 @@ html {
     button {
         @apply shadow-md shadow-slate-700 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
     }
+    button :disabled {
+        @apply bg-gray-500;
+    }
 }

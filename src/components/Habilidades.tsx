@@ -17,7 +17,6 @@ const Habilidades = () => {
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">
                     Habilidades
                 </p>
-                <h2 className="py-4">O que eu sei</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-75">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">

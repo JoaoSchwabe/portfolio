@@ -11,7 +11,6 @@ const Sobre = () => {
                     <p className="uppercase text-xl tracking-widest text-[#5651e5]">
                         Sobre
                     </p>
-                    <h2 className="py-4">Quem sou eu</h2>
                     <p className="py-2 text-gray-400">
                         Estou me especializando em desenvolvimento web front-end
                         com React e Next.js e no desenvolvimento mobile com
