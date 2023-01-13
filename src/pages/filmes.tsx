@@ -71,7 +71,7 @@ const Filmes = () => {
                     </div>
                 </div>
                 <Link href="/#projetos">
-                    <p className="underline cursor-pointer">Back</p>
+                    <p className="underline cursor-pointer">Voltar</p>
                 </Link>
             </div>
         </div>

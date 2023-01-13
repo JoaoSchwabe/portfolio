@@ -40,13 +40,6 @@ const Todo = () => {
                     >
                         <button className="px-8 py-2 mt-4 mr-8">Código</button>
                     </a>
-                    <a
-                        href="https://sitefilmesapi.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <button className="px-8 py-2 mt-4">Demonstração</button>
-                    </a>
                 </div>
                 <div className="col-span-4 md:col-span-1 shadow-md shadow-slate-500 rounded-xl py-4">
                     <div className="p-2">
@@ -67,7 +60,7 @@ const Todo = () => {
                     </div>
                 </div>
                 <Link href="/#projetos">
-                    <p className="underline cursor-pointer">Back</p>
+                    <p className="underline cursor-pointer">Voltar</p>
                 </Link>
             </div>
         </div>
